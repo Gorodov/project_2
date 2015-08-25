@@ -16,8 +16,3 @@ class EvTest
 		end
 	end
 end
-
-checktyped = EvTest.new
-puts 'Введите идентификатор'
-regexp = gets
-checktyped.test_id(regexp)
